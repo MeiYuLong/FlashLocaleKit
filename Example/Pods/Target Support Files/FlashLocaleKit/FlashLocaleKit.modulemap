@@ -1,0 +1,6 @@
+framework module FlashLocaleKit {
+  umbrella header "FlashLocaleKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

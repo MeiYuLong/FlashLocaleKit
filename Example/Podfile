@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FlashLocaleKit_Example' do
+  pod 'FlashLocaleKit', :path => '../'
+
+  target 'FlashLocaleKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

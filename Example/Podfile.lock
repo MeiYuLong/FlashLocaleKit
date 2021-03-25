@@ -1,0 +1,16 @@
+PODS:
+  - FlashLocaleKit (0.0.1)
+
+DEPENDENCIES:
+  - FlashLocaleKit (from `../`)
+
+EXTERNAL SOURCES:
+  FlashLocaleKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlashLocaleKit: f42507f9e063b51007cb48e129da6f71c5a53c5e
+
+PODFILE CHECKSUM: 92a39592cfb7f2b566dab99f167927f4b620b635
+
+COCOAPODS: 1.10.0
