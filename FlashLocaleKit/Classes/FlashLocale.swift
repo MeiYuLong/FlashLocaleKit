@@ -1,8 +1,8 @@
 //
 //  FlashLocale.swift
-//  FlashLocaleManager
+//  LocaleManager
 //
-//  Created by 宋东昊 on 2021/2/19.
+//  Created by 宋东昊 on 2021/4/6.
 //
 
 import Foundation
@@ -45,6 +45,8 @@ public class CountryInfo: Codable {
     public var tax_id: String?
     /// 座机正则表达式校验
     public var phone_number_regex: String?
+    /// 宽松的手机号校验   校验10位数字
+    public var mobile_phone_loosse_regex: String?
     /// 手机号正则表达式校验
     public var mobile_phone_regex: String?
     /// 手机号最大长度
@@ -59,20 +61,15 @@ public class CountryInfo: Codable {
     public var passport_regex: String?
     /// 护照号长度
     public var passport_maxlength: String?
-    /// 驾照号
-    public var driving_license_regex: String?
     /// 驾照号长度
     public var driving_license_maxlength: String?
-
-    /// 工作证号
-    public var permit_number_regex: String?
     /// 工作证号长度
     public var permit_number_maxlength: String?
     /// 车牌号长度
     public var car_number_maxlength: String?
     /// 汽车发动机编号长度
     public var car_Engine_number_maxlength: String?
-    /// 官方网站
+    /// 官网短链接
     public var offical_short_website: String?
 }
 
@@ -86,6 +83,8 @@ public class ExpressInfo: Codable {
     public var waybill_consignee_tag: String?
     /// 运单水果信息标记
     public var waybill_fruit_tag: String?
+    /// 面单上收件人签字标识
+    public var waybill_consignee_singer_tag: String?
     /// 回执单现结客户标记
     public var receipt_cash_tag: String?
     /// 回执单定结客户标记
@@ -124,27 +123,28 @@ public class ExpressInfo: Codable {
     public var receipt_total_cod_fee: String?
     /// 回执单包材费总费用
     public var receipt_total_material_fee: String?
-    /// 回执单实收金额
+    /// 回执单实收费用
     public var receipt_receivable_fee: String?
     /// 回执单报销提示语
     public var receipt_insurance_tip: String?
-    /// 回执单客户提示语
+    /// 回执单客户标题
     public var receipt_customer_title: String?
-    /// 回执单地址提示语
-    public var receipt_address_title: String?
-    /// 回执单税号提示语
+    /// 回执单包裹总数量标题
+    public var receipt_total_count_title: String?
+    /// 回执单税号标题
     public var receipt_tax_id_title: String?
-    /// 回执单电话提示语
+    /// 回执单电话标题
     public var receipt_tel_title: String?
-    /// 回执单二维码提示语
+    /// 回执单上二维码提示语
     public var receipt_scan_qrcode_tip: String?
     /// 回执单揽收提示语
     public var receipt_pickup_tip: String?
-    /// 回执单材料提示语
+    /// 回执单包材标题
     public var receipt_material_title: String?
-    /// 回执单寄件个数提示语
+    /// 回执单寄件个数标题
     public var receipt_count_title: String?
-    /// 回执单寄件总数量提示语
+    /// 回执单寄件总数量提标题
     public var receipt_amount_title: String?
-
+    /// 运单号正则
+    public var pno_number_regex: String?
 }
