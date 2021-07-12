@@ -1,15 +1,15 @@
 {
     "country_info": {
-        "country_name": "Thailand",
-        "native_country_name": "ประเทศไทย",
-        "language_code": "th",
-        "native_language_code": "ไทย",
-        "ISO_code": "TH",
-        "ISO_code_three": "THA",
-        "country_code": "66",
+        "country_name": "Laos",
+        "native_country_name": "ລາວ",
+        "language_code": "la",
+        "native_language_code": "ພາສາລາວ",
+        "ISO_code": "LA",
+        "ISO_code_three": "LAO",
+        "country_code": "856",
         "time_zone": "+07:00",
-        "currency": "THB",
-        "currency_symbol": "฿",
+        "currency": "LAK",
+        "currency_symbol": "₭",
         "long_date_format": "dd/MM/yyyy HH:mm:ss",
         "date_format": "dd/MM/yyyy",
         "service_telphone": "1436",
@@ -33,7 +33,7 @@
         "copyright_text": "Copyright ©2017 FLASH EXPRESS CO.,LTD"
     },
     "express_info": {
-        "package_no_prefix": "TH",
+        "package_no_prefix": "L",
         "waybill_sender_tag": "ผู้ส่ง",
         "waybill_consignee_tag": "ผู้รับ",
         "waybill_fruit_tag": "ผลไม้",
@@ -69,7 +69,7 @@
         "receipt_material_title": "บรรจุภัณฑ์",
         "receipt_count_title": "จำนวน",
         "receipt_amount_title": "ยอดเงิน",
-        "pno_number_regex": "[Tt][Hh][0-9A-Za-z]{8,12}[a-zA-Z]$",
+        "pno_number_regex": "[Ll][0-9A-Za-z]{8,11}[0-9][a-zA-Z]$",
         "out_trade_number_regex": "[0-9a-zA-Z]{9,}"
     }
 }

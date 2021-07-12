@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         FlashLocaleManager.shared.currentCountry = .Philippines
 
-        debugPrint(FlashLocaleManager.shared.currentLocale.country_info?.ISO_code ?? "get error")
+        debugPrint(FlashLocaleManager.shared.currentLocale.country_info?.copyright_text ?? "get error")
     }
 
     override func didReceiveMemoryWarning() {

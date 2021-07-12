@@ -35,20 +35,22 @@ public class CountryInfo: Codable {
     public var currency: String?
     /// 货币符号
     public var currency_symbol: String?
-    /// 时间格式
-    public var date_format: String?
     /// 长日期格式
     public var long_date_format: String?
+    /// 普通日期格式
+    public var date_format: String?
     /// 服务电话
     public var service_telphone: String?
     /// 税号
     public var tax_id: String?
     /// 座机正则表达式校验
     public var phone_number_regex: String?
-    /// 宽松的手机号校验   校验10位数字
-    public var mobile_phone_loosse_regex: String?
     /// 手机号正则表达式校验
     public var mobile_phone_regex: String?
+    /// 宽松的手机号校验   校验9或者10位数字
+    public var mobile_phone_loosse_regex: String?
+    /// 宽松的手机号校验   校验10位数字
+    public var phone_number_loosse_regex: String?
     /// 手机号最大长度
     public var mobile_phone_maxlength: String?
     /// 手机号正则表达式校验（严格校验）
@@ -71,6 +73,10 @@ public class CountryInfo: Codable {
     public var car_Engine_number_maxlength: String?
     /// 官网短链接
     public var offical_short_website: String?
+    /// 公司客服电话 带中横线拼接
+    public var company_service_telphone: String?
+    /// 版权声明文案
+    public var copyright_text: String?
 }
 
 /// 快递业务相关的本地化信息
@@ -117,6 +123,8 @@ public class ExpressInfo: Codable {
     public var receipt_total_fee: String?
     /// 回执单总税费用
     public var receipt_total_vat: String?
+    /// 回执单包裹税费
+    public var receipt_package_vat: String?
     /// 回执单税后总金额
     public var receipt_total_fee_after_tax: String?
     /// 回执单cod总金额
@@ -147,4 +155,6 @@ public class ExpressInfo: Codable {
     public var receipt_amount_title: String?
     /// 运单号正则
     public var pno_number_regex: String?
+    /// 外部订单号正则
+    public var out_trade_number_regex: String?
 }
