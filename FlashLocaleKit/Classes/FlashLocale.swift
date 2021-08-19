@@ -53,6 +53,10 @@ public class CountryInfo: Codable {
     public var phone_number_loosse_regex: String?
     /// 手机号最大长度
     public var mobile_phone_maxlength: String?
+    /// 手机号最大触发长度
+    public var phone_number_tigger_length: String?
+    /// 手机号最小触发长度
+    public var min_phone_number_tigger_length: String?
     /// 手机号正则表达式校验（严格校验）
     public var mobile_phone_regex_strict: String?
     /// 身份证号
@@ -141,7 +145,7 @@ public class ExpressInfo: Codable {
     public var receipt_total_count_title: String?
     /// 回执单税号标题
     public var receipt_tax_id_title: String?
-    /// 回执单电话标题
+    /// 回执单结算方式
     public var receipt_tel_title: String?
     /// 回执单上二维码提示语
     public var receipt_scan_qrcode_tip: String?
