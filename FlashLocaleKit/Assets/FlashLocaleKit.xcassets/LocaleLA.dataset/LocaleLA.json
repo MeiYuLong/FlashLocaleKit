@@ -32,7 +32,7 @@
         "car_Engine_number_maxlength": "30",
         "offical_short_website": "https://www.flashexpress.la/",
         "company_service_telphone": "030-9651666",
-        "copyright_text": "Copyright ©2017 FLASH EXPRESS CO.,LTD"
+        "copyright_text": "Copyright ©2017 FLASH EXPRESS LA CO.,LTD"
     },
     "express_info": {
         "package_no_prefix": "L",
@@ -54,6 +54,7 @@
         "receipt_regular_fee_tip": null,
         "receipt_insured_insurance_title": "ປະກັນຄຸ້ມຄອງພັດສະດຸ",
         "receipt_freight_insurance_title": "ປະກັນພັດສະດຸຕີກັບ",
+        "receipt_package_insurance_title": "receipt_package_insurance_title",
         "receipt_total_fee": "ກ່ອນເສຍພາສີ",
         "receipt_total_vat": "10% VAT",
         "receipt_package_vat": "VAT 10%",
