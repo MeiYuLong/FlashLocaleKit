@@ -18,10 +18,12 @@ public class FlashLocaleManager {
             switch currentCountry {
             case .Philippines:
                 sourceName = "LocalePH"
-            case .Thainland, .Malaysia, .Indonesia, .China:
+            case .Thainland, .Indonesia, .China:
                 sourceName = "LocaleTH"
             case .Laos:
                 sourceName = "LocaleLA"
+            case .Malaysia:
+                sourceName = "LocaleMY"
             }
             
             guard let bundlePath = Bundle(for: FlashLocaleManager.self).resourcePath,

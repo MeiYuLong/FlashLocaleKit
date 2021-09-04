@@ -123,6 +123,8 @@ public class ExpressInfo: Codable {
     public var receipt_insured_insurance_title: String?
     /// 回执单运费险
     public var receipt_freight_insurance_title: String?
+    /// 回执单外包装破损险
+    public var receipt_package_insurance_title: String?
     /// 回执单总费用
     public var receipt_total_fee: String?
     /// 回执单总税费用
