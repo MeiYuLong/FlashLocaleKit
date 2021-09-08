@@ -35,6 +35,8 @@ public class CountryInfo: Codable {
     public var currency: String?
     /// 货币符号
     public var currency_symbol: String?
+    /// 货币统一展示
+    public var currency_display: String?
     /// 长日期格式
     public var long_date_format: String?
     /// 普通日期格式
