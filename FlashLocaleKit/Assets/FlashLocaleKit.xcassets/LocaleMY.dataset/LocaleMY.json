@@ -13,7 +13,7 @@
         "currency_display": "RM",
         "long_date_format": "dd/MM/yyyy HH:mm:ss",
         "date_format": "MM/dd/yyyy",
-        "service_telphone": "(01) 546 000 825",
+        "service_telphone": "015 4600 0825",
         "tax_id": null,
         "phone_number_regex": "[0-9#*]{9,20}",
         "mobile_phone_regex": "^0[0-9]{10}",
@@ -32,7 +32,7 @@
         "car_number_maxlength": "20",
         "car_Engine_number_maxlength": "30",
         "offical_short_website": "https://www.flashexpress.my",
-        "company_service_telphone": "(01) 546-000-825",
+        "company_service_telphone": "015 4600 0825",
         "copyright_text": "Copyright ©2017 FLASH EXPRESS MY CO.,LTD"
     },
     "express_info": {
@@ -48,7 +48,7 @@
         "receipt_sell_material_tag": "Parcel Receipt",
         "receipt_print_date": "Printed",
         "receipt_pickup_task_id": "Receipt ID",
-        "receipt_company_name": "Flash Express MY",
+        "receipt_company_name": "Titus Express Delivery Sdn. Bhd. (1199241-H)",
         "receipt_office_address": "Wisma DKLS, Level 7, Tower 8, Avenue 5",
         "receipt_office_region": "Bangsar South City, 59200 Kuala Lumpur",
         "receipt_cash_fee_tip": null,
