@@ -11,7 +11,7 @@ public class FlashLocaleManager {
     
     public static let shared = FlashLocaleManager()
     
-    public var currentLocale: FlashLocale!
+    public var currentLocale: FlashLocale?
     public var currentCountry: FlashCountries = .Thainland {
         didSet {
             var sourceName: String
